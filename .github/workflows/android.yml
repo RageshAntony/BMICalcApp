@@ -1,0 +1,5 @@
+- uses: sparkfabrik/android-build-action@v1.0.0
+  with:
+    project-path: .
+    output-path: my-app.apk
+    browserstack-upload: true
